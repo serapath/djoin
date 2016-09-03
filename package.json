@@ -1,0 +1,31 @@
+{
+  "name": "djoin",
+  "version": "1.0.0",
+  "description": "join array into string with default delimiter `'/'`",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/djoin.git"
+  },
+  "keywords": [
+    "split",
+    "string",
+    "delimiter"
+  ],
+  "author": "@serapath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/djoin/issues"
+  },
+  "homepage": "https://github.com/serapath/djoin#readme",
+  "devDependencies": {
+    "tape": "^4.6.0"
+  },
+  "dependencies": {
+    "x-is-array": "^0.1.0",
+    "x-is-string": "^0.1.0"
+  }
+}
