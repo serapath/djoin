@@ -19,4 +19,4 @@ join array into string with default delimiter `'/'`
 ```
 
 # Related
-* see [getval](https://www.npmjs.com/package/dsplit)
+* see [dsplit](https://www.npmjs.com/package/dsplit)
