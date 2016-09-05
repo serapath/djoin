@@ -11,12 +11,12 @@ join array into string with default delimiter `'/'`
   console.log(djoin(['', 'a', 'b', '', 'c', ''])) // => '/a/b//c/'
   console.log(djoin(['a', 'b','',''])) // => 'a/b//'
   console.log(djoin(['','','a', 'b'])) // => '//a/b'
-  console.log(djoin(['','','',''])) // => '////'
-  console.log(djoin(['',''])) // => '//'
-  console.log(djoin([''])) // => '/'
-  console.log(djoin([])) // => ''
-  console.log(djoin('')) // => ''
-  console.log(djoin(undefined)) // => ''
+  console.log(djoin(['','',''])) // => '//'
+  console.log(djoin(['',''])) // => '/'
+  console.log(djoin([''])) // => ''
+  console.log(djoin([])) // => undefined
+  console.log(djoin('')) // => undefined
+  console.log(djoin(undefined)) // => undefined
 ```
 
 # Related

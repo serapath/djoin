@@ -1,6 +1,6 @@
 {
   "name": "djoin",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "join array into string with default delimiter `'/'`",
   "main": "index.js",
   "scripts": {
